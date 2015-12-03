@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'ISeoulUFont-EB';
+    src: url('../fonts/SeoulNamsanEB.ttf') format('truetype')
+}
+
+#first_circle {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: rgb(190, 16, 54);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#second_circle {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: rgb(90, 140, 206);
+    ;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.text_inputs input {
+    margin-bottom: 10px;
+}
+
+.text_outputs {
+    text-align: center;
+}
+
+.text_outputs span {
+    font-size: 52px;
+    font-family: ISeoulUFont-EB;
+}
+
+.text_output_bottom {
+    margin-top: -10px;
+    color: rgb(116,116,116);
+    font-family: ISeoulUFont-EB;
+    font-size: 16px;
+    text-align: center;
+}
